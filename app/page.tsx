@@ -115,15 +115,17 @@ export default function HomePage() {
                   <h3 className="card-title text-2xl">{project.title}</h3>
                   <p className="text-lg mb-4">{project.description}</p>
                   {project.youtubeId && (
-                    <div className="mt-4">
-                      <iframe
-                        src={`https://www.youtube.com/embed/${project.youtubeId}`}
-                        title={project.title}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="w-full h-56 rounded"
-                      ></iframe>
+                    <div className="mt-4 w-full">
+                      <div className="relative w-full aspect-[4/3]">
+                        <iframe
+                          src={`https://www.youtube.com/embed/${project.youtubeId}`}
+                          title={project.title}
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          className="absolute top-0 left-0 w-full h-full rounded"
+                        ></iframe>
+                      </div>
                     </div>
                   )}
                 </div>

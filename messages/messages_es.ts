@@ -29,34 +29,36 @@ export const messages = {
   projectsTitle: "Proyectos",
   projects: [
     {
-      title: "Proyecto Uno",
+      title: "POP3-SERVER",
       description:
-        "Una aplicación web moderna desarrollada con Next.js y GraphQL.",
-      youtubeId: "dQw4w9WgXcQ",
+        "Implementación en C de un protocolo POP3 (RFC1939) y un protocolo propietario llamado Mail Server Monitor Protocol (MSMP) \n[Proyecto universitario para 72.07 Protocolos de Comunicación]",
     },
     {
-      title: "Proyecto Dos",
+      title: "TipTyphoon",
       description:
-        "Un proyecto de aprendizaje automático utilizando Python y TensorFlow.",
-      youtubeId: "9bZkp7q19f0",
+        "Compilador diseñado para un superconjunto de MarkDown. El objetivo de este proyecto fue expandir la funcionalidad de MarkDown agregando opciones de estilo a la sintaxis del lenguaje y creando un compilador que generara el archivo HTML correspondiente. \n[Proyecto universitario para 72.39 Teoría de Lenguajes, Compiladores y Autómatas]",
     },
     {
-      title: "Proyecto Tres",
+      title: "sia-tp5",
       description:
-        "Una aplicación móvil innovadora desarrollada con React Native.",
-      youtubeId: "iik25wqIuFo",
+        "Proyecto de Autoencoder Variacional escrito en Python. \n[Proyecto universitario para 72.27 Sistemas Inteligentes Artificiales]",
     },
     {
-      title: "Proyecto Cuatro",
+      title: "cripto-tpe",
       description:
-        "Una solución basada en blockchain para transacciones seguras.",
-      youtubeId: "y6120QOlsfU",
+        "Herramienta CLI utilizada para esteganografía en archivos BMP. Ofrece varios métodos y opciones de cifrado como AES o 3DES, escrita en Java. \n[Proyecto universitario para 72.44 Criptografía y Seguridad]",
     },
     {
-      title: "Proyecto Cinco",
+      title: "Conway's Game of Life",
       description:
-        "Un proyecto creativo de IoT que conecta dispositivos sin problemas.",
-      youtubeId: "eVTXPUF4Oz4",
+        "Una recreación del Juego de la Vida de Conway. La simulación fue escrita en Java y la salida fue luego animada en Python.",
+      youtubeId: "B24MciyJLQI",
+    },
+    {
+      title: "Particle Distribution",
+      description:
+        "Representación de una distribución de partículas siguiendo la dinámica molecular de esferas rígidas.",
+      youtubeId: "6uWgP_qkv3M",
     },
   ],
   footerText: "Desarrollado con Next.js, Tailwind CSS y DaisyUI",
