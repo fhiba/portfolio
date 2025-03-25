@@ -21,9 +21,10 @@ export const messages = {
   experienceTitle: "Experiencia",
   experienceItems: [
     {
-      company: "ECOMERCIAR",
+      company: "Conexa",
       role: "Pasante",
       period: "2019",
+      description: "",
     },
   ],
   projectsTitle: "Proyectos",
@@ -32,32 +33,38 @@ export const messages = {
       title: "POP3-SERVER",
       description:
         "Implementación en C de un protocolo POP3 (RFC1939) y un protocolo propietario llamado Mail Server Monitor Protocol (MSMP) \n[Proyecto universitario para 72.07 Protocolos de Comunicación]",
+      link: "https://github.com/fhiba/POP3-Server",
     },
     {
       title: "TipTyphoon",
       description:
         "Compilador diseñado para un superconjunto de MarkDown. El objetivo de este proyecto fue expandir la funcionalidad de MarkDown agregando opciones de estilo a la sintaxis del lenguaje y creando un compilador que generara el archivo HTML correspondiente. \n[Proyecto universitario para 72.39 Teoría de Lenguajes, Compiladores y Autómatas]",
+      link: "https://github.com/fhiba/TipTyphoon",
     },
     {
       title: "sia-tp5",
       description:
         "Proyecto de Autoencoder Variacional escrito en Python. \n[Proyecto universitario para 72.27 Sistemas Inteligentes Artificiales]",
+      link: "https://github.com/fhiba/sia-tp5",
     },
     {
       title: "cripto-tpe",
       description:
         "Herramienta CLI utilizada para esteganografía en archivos BMP. Ofrece varios métodos y opciones de cifrado como AES o 3DES, escrita en Java. \n[Proyecto universitario para 72.44 Criptografía y Seguridad]",
+      link: "https://github.com/fhiba/criptotpe",
     },
     {
       title: "Conway's Game of Life",
       description:
         "Una recreación del Juego de la Vida de Conway. La simulación fue escrita en Java y la salida fue luego animada en Python.",
+      link: "https://github.com/2024Q2SS/TP2",
       youtubeId: "B24MciyJLQI",
     },
     {
       title: "Particle Distribution",
       description:
         "Representación de una distribución de partículas siguiendo la dinámica molecular de esferas rígidas.",
+      link: "https://github.com/2024Q2SS/TP3",
       youtubeId: "6uWgP_qkv3M",
     },
   ],

@@ -111,24 +111,26 @@ export default function HomePage() {
                 key={index}
                 className="card bg-gray-800 shadow-xl transform transition-transform duration-300 hover:scale-105"
               >
-                <div className="card-body">
-                  <h3 className="card-title text-2xl">{project.title}</h3>
-                  <p className="text-lg mb-4">{project.description}</p>
-                  {project.youtubeId && (
-                    <div className="mt-4 w-full">
-                      <div className="relative w-full aspect-[4/3]">
-                        <iframe
-                          src={`https://www.youtube.com/embed/${project.youtubeId}`}
-                          title={project.title}
-                          frameBorder="0"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen
-                          className="absolute top-0 left-0 w-full h-full rounded"
-                        ></iframe>
+                <a href={project.link}>
+                  <div className="card-body">
+                    <h3 className="card-title text-2xl">{project.title}</h3>
+                    <p className="text-lg mb-4">{project.description}</p>
+                    {project.youtubeId && (
+                      <div className="mt-4 w-full">
+                        <div className="relative w-full aspect-[4/3]">
+                          <iframe
+                            src={`https://www.youtube.com/embed/${project.youtubeId}`}
+                            title={project.title}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            className="absolute top-0 left-0 w-full h-full rounded"
+                          ></iframe>
+                        </div>
                       </div>
-                    </div>
-                  )}
-                </div>
+                    )}
+                  </div>
+                </a>
               </div>
             ))}
           </div>
